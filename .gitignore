@@ -19,3 +19,9 @@ vendor/
 
 # Builds
 dist/
+
+# Artefacts du build frontend copiés par deploy.sh (régénérés à chaque déploiement)
+/backend/public/index.html
+/backend/public/assets/
+/backend/public/favicon.svg
+/backend/public/icons.svg
