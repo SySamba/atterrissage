@@ -1,0 +1,21 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# Environnement / secrets
+.env
+.env.*
+*.local
+
+# Dépendances (sécurité supplémentaire — déjà ignorées dans les sous-dossiers)
+node_modules/
+vendor/
+
+# Builds
+dist/
